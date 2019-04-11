@@ -1,0 +1,34 @@
+<% include ../partials/header %>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <hr>
+        <h4>Ingredients</h4>
+        <% recipe.ingredients.forEach(function(ingredient) { %>
+           <div class="row">
+               <div class="col-md-12">
+                   <strong><%= ingredient.name %></strong>
+                      <p>
+                    <%= ingredient.measurement %>
+                    </p>
+               </div>
+           </div>
+        <% }) %>
+        </div>
+        <div class="col-md-9">
+          <div class="thumbnail">
+            <div class="caption-full">
+              <h2><a><%=recipe.name%></a></h2>
+              <h4>Directions</h4>
+                <% for (let i =0; i < recipe.description.length; i++) { %>
+                  <br> <%= (i + 1) + '. ' + recipe.description[i] %> </br>
+                <% } %>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<% include ../partials/footer %>
