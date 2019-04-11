@@ -55,6 +55,7 @@
     },
     {
         id: 2,
+        adobePage: 19,
         name: "Sun Dried Tomato Pesto",
         description: [
             "Put everything in food processor and pulse until mixture forms a coarse paste."
@@ -140,7 +141,7 @@
         ],
         cook: "Karen",
         cuisine: "French",
-        protein: "chicken",
+        foodType: "chicken",
         image: "xxx"
     },
     {
@@ -289,7 +290,7 @@
         id: 6,
         name: "Peperonata",
         description: [
-            "Cook and stir onions in oil on a 10\" skillet util tender.",
+            "Cook and stir onions in oil on a 10\" skillet until tender.",
             "Add remaining ingredients except tomatoes.",
             "Cover and cook over low heat for 10 minutes.",
             "Add tomatoes. Cover and simmer until green peppers are tender, about 5 minutes.",
@@ -334,7 +335,7 @@
             }
         ],
         cuisine: "Italian",
-        protein: "olives",
+        foodType: "olives",
         serves: 4,
         image: "xxx"
     },
@@ -499,6 +500,7 @@
     },
     {
         id:10,
+        adobePage: 19,
         name: "Shrimp and Angel Hair Pasta",
         ingredients: [
             {
@@ -1976,3 +1978,882 @@
         meal: "lunch or dinner",
         image: "xxx"
     },
+    {
+        id: 44,
+        adobePage: 16,
+        name: "Chili",
+        ingredients: [
+            {
+                name: "Italian sausage",
+                measurement: "1 lb."
+            },
+            {
+                name: "ground beef",
+                measurement: "1 lb."
+            },
+            {
+                name: "onion",
+                measurement: "1 c., chopped"
+            },
+            {
+                name: "green pepper",
+                measurement: "3/4 c., chopped"
+            },
+            {
+                name: "garlic",
+                measurement: "1 clove, chopped"
+            },
+            {
+                name: "basil",
+                measurement: "1/2 tsp."
+            },
+            {
+                name: "bay leaves",
+                measurement: "1"
+            },
+            {
+                name: "tomatoes",
+                measurement: "1 can, 16 oz."
+            },
+            {
+                name: "cumin",
+                measurement: "2 tsp."
+            },
+            {
+                name: "kidney beans",
+                measurement: "1 can, 16 oz."
+            },
+            {
+                name: "tomato sauce",
+                measurement: "1 can, 8 oz."
+            },
+            {
+                name: "chili powder",
+                measurement: "2 tsp."
+            }
+        ],
+        description: [
+            "Brown beef, sausage, onion, green pepper and garlic.",
+            "Drain the fat.",
+            "Add undrained tomatoes, kidney beans, tomato sauce, chili powder and basil. Salt and pepper to taste.",
+            "Cover and simmer for about 20 minutes.",
+        ],
+        meal: "soup",
+        serves: "4-6",
+        foodType: "beef and pork",
+        image: "xxx"
+    },
+    {
+        id: 45,
+        adobePage: 16,
+        name: "Slow Cooker Chicken Taco Soup",
+        ingredients: [
+            {
+                name: "onion",
+                measurement: "1 c., chopped"
+            },
+            {
+                name: "chili beans",
+                measurement: "2 cans, 1 medium and 1 mild"
+            },
+            {
+                name: "canned corn",
+                measurement: "1 can"
+            },
+            {
+                name: "tomato sauce",
+                measurement: "1 can, 8 oz."
+            },
+            {
+                name: "chicken and taco seasoning",
+                measurement: "1 package"
+            },
+            {
+                name: "diced tomatoes with chilis",
+                measurement: "2 cans, 10 oz. each"
+            },
+            {
+                name: "chicken",
+                measurement: "3 whole, skinless, boneless breasts"
+            },
+            {
+                name: "beer",
+                measurement: "1 bottle"
+            },
+            {
+                name: "cheddar cheese",
+                measurement: "1 c., shredded, for topping"
+            },
+            {
+                name: "sour cream",
+                measurement: "1/3 c., for topping"
+            },
+            {
+                name: "tortilla chips",
+                measurement: "1 bag, for topping"
+            },
+            {
+                name: "tomato sauce",
+                measurement: "1 can, 8 oz."
+            },
+            {
+                name: "chili powder",
+                measurement: "2 tsp."
+            }
+        ],
+        description: [
+            "Place onion, beans, corn, tomato sauce, beer, seasoning and diced tomatoes in crock pot and stir.",
+            "Add in chicken and cover.",
+            "Cook on low for 5 hours.",
+            "Remove chicken, shred and place back in pot.",
+            "Cook 1 more hour on low.",
+            "Serve with toppings."
+        ],
+        meal: "soup",
+        serves: "4-6",
+        foodType: "",
+        image: "xxx"
+    },
+    {
+        id: 46,
+        adobePage: 17,
+        name: "Chicken and Vegetable Stew",
+        ingredients: [
+            {
+                name: "margarine",
+                measurement: "1 tbls."
+            },
+            {
+                name: "flour",
+                measurement: "2 tbls."
+            },
+            {
+                name: "onion",
+                measurement: "1 small, chopped"
+            },
+            {
+                name: "carrot",
+                measurement: "1 medium, diced"
+            },
+            {
+                name: "celery",
+                measurement: "1 rib, diced"
+            },
+            {
+                name: "parsnip",
+                measurement: "1, diced"
+            },
+            {
+                name: "bay leaves",
+                measurement: "1"
+            },
+            {
+                name: "thyme",
+                measurement: "to taste"
+            },
+            {
+                name: "chicken",
+                measurement: "3/4 lb. breast, cut in cubes"
+            },
+            {
+                name: "chicken stock",
+                measurement: "1 c."
+            },
+            {
+                name: "lemon rind",
+                measurement: "1 tsp., grated"
+            },
+            {
+                name: "nutmeg",
+                measurement: "1/2 tsp."
+            },
+            {
+                name: "parsley",
+                measurement: "2 tbls., chopped"
+            },
+            {
+                name: "water",
+                measurement: "1/2 c."
+            },
+            {
+                name: "egg noodles",
+                measurement: "1 package"
+            }
+        ],
+        description: [
+            "Melt the margarine in a large saute pan.",
+            "Lightly fry the onion, carrot, celery and parsnip.",
+            "Add the chicken breast, brown quickly then reduce heat.",
+            "Add salt and pepper & 1/2 c. water.",
+            "Cover and simmer about 15-20 minutes.",
+            "Mix flour and chicken stock, then stir into pan with lemon rind, nutmeg and parsley.",
+            "Cover and simmer for 45 minutes. Add more stock if needed.",
+            "Serve over noodles."
+        ],
+        meal: "soup",
+        serves: "4-6",
+        foodType: "chicken",
+        image: "xxx"
+    },
+    {
+        id: 47,
+        adobePage: 18,
+        name: "Pesto",
+        ingredients: [
+            {
+                name: "basil",
+                measurement: "4 c."
+            },
+            {
+                name: "olive oil",
+                measurement: "1/2 c."
+            },
+            {
+                name: "pine nuts",
+                measurement: "1/4 c."
+            },
+            {
+                name: "garlic",
+                measurement: "2 cloves"
+            },
+            {
+                name: "parsley",
+                measurement: "5 sprigs"
+            },
+            {
+                name: "parmesan cheese",
+                measurement: "1/2 c., grated"
+            }
+        ],
+        description: [
+            "Place basil in food processor, add oil, garlic, parsley, salt and pepper and pine nuts.",
+            "Blend well.",
+            "Remove from food processor and add cheese."
+        ],
+        meal: "appetizer",
+        foodType: "",
+        image: "xxx"
+    },
+    {
+        id: 48,
+        adobePage: 18,
+        name: "Spaghetti with Butter and Cheese",
+        ingredients: [
+            {
+                name: "spaghetti noodles",
+                measurement: "1 lb."
+            },
+            {
+                name: "whipped cream",
+                measurement: "2 tsp."
+            },
+            {
+                name: "cheese",
+                measurement: "1 c., grated"
+            },
+            {
+                name: "butter",
+                measurement: "3 tbls."
+            }
+        ],
+        description: [
+            "Cook spaghetti and drain.",
+            "Transfer to bowl and immediately add 1/2 of the cheese.",
+            "Toss until it melts and add the butter.",
+            "Toss until melted and add cream, salt and pepper and the remaining cheese."
+        ],
+        meal: "pasta",
+        foodType: "cheese",
+        image: "xxx"
+    },
+    {
+        id: 49,
+        adobePage: 20,
+        name: "James Beard Italian Style Pot Roast",
+        ingredients: [
+            {
+                name: "pork roast",
+                measurement: "1, 4-6 lbs."
+            },
+            {
+                name: "garlic",
+                measurement: "2 cloves"
+            },
+            {
+                name: "olive oil",
+                measurement: "4 tbls."
+            },
+            {
+                name: "onion",
+                measurement: "2 large, sliced"
+            },
+            {
+                name: "bay leaves",
+                measurement: "1"
+            },
+            {
+                name: "thyme",
+                measurement: "1/2 tsp."
+            },
+            {
+                name: "salt",
+                measurement: "1 tsp."
+            },
+            {
+                name: "tomato puree",
+                measurement: "1 1/2 c."
+            },
+            {
+                name: "beef stock, made with boullion cube",
+                measurement: "1/2 c."
+            },
+            {
+                name: "butter",
+                measurement: "3 tbls."
+            }
+        ],
+        description: [
+            "Sear in olive oil until nicely browned.",
+            "Add onions, bay leaf, thyme, salt, tomato puree and beef stock.",
+            "Cover and simmer for 25 minutes per pound or until tender.",
+            "Add carrots and remove roast from pan. Skim ecess fat from pan.",
+            "Add remaining tomato puree and bring sauce to a boil, stirring well."
+        ],
+        meal: "dinner",
+        foodType: "pork",
+        image: "xxx"
+    },
+    {
+        id: 50,
+        adobePage: 21,
+        name: "Pork Tenderloin",
+        ingredients: [
+            {
+                name: "pork tenderloins",
+                measurement: "3, whole loins"
+            },
+            {
+                name: "olive oil",
+                measurement: "1/4 c."
+            },
+            {
+                name: "basil",
+                measurement: "1/4 c."
+            },
+            {
+                name: "rosemary",
+                measurement: "1/4 c."
+            },
+            {
+                name: "thyme",
+                measurement: "1/4 c."
+            },
+            {
+                name: "salt",
+                measurement: "1/4 tsp."
+            },
+            {
+                name: "pepper",
+                measurement: "1 tsp."
+            },
+            {
+                name: "garlic",
+                measurement: "2 cloves"
+            },
+            {
+                name: "dijon mustard",
+                measurement: "1 1/2 tsp."
+            },
+            {
+                name: "balsamic vinegar",
+                measurement: "1 1/2 tsp."
+            }
+        ],
+        description: [
+            "Mix all ingredients together.",
+            "Marinate the pork tenderloins as desired.",
+            "Grill or in over for 20-25 minutes."
+            ],
+        meal: "dinner",
+        foodType: "pork",
+        oven: 350,
+        image: "xxx"
+    },
+    {
+        id: 51,
+        adobePage: 21,
+        name: "Meatballs in Mushroom Gravy",
+        ingredients: [
+            {
+                name: "beef",
+                measurement: "1 lb., ground chuck"
+            },
+            {
+                name: "pork",
+                measurement: "1 lb., ground"
+            },
+            {
+                name: "onion",
+                measurement: "1 medium, minced"
+            },
+            {
+                name: "bread crumbs",
+                measurement: "1 c."
+            },
+            {
+                name: "rice",
+                measurement: "1/2 c."
+            },
+            {
+                name: "salt",
+                measurement: "1 1/2 tsp."
+            },
+            {
+                name: "pepper",
+                measurement: "1/4 tsp."
+            },
+            {
+                name: "milk",
+                measurement: "1 c."
+            },
+            {
+                name: "eggs",
+                measurement: "1"
+            },
+            {
+                name: "cream of mushroom soup",
+                measurement: "1 can"
+            },
+            {
+                name: "water",
+                measurement: "1 c."
+            }
+        ],
+        description: [
+            "Mix together and shape into balls.",
+            "Mix can of mushroom soup and water. Pour over meatballs.",
+            "Bake for 1 1/4 hours."
+            ],
+        meal: "dinner",
+        foodType: "pork and beef",
+        oven: 350,
+        image: "xxx"
+    },
+    {
+        id: 52,
+        adobePage: 22,
+        name: "Veal Piccata",
+        ingredients: [
+            {
+                name: "veal cutlets",
+                measurement: "4, boneless"
+            },
+            {
+                name: "flour",
+                measurement: "1 c."
+            },
+            {
+                name: "white wine",
+                measurement: "1/2 c."
+            },
+            {
+                name: "lemon juice",
+                measurement: "1 tbls."
+            },
+            {
+                name: "olive oil",
+                measurement: "1 tbls."
+            },
+            {
+                name: "butter",
+                measurement: "1 tbls."
+            }
+        ],
+        description: [
+            "Flatten veal and dredge lightly in flour.",
+            "Heat the oil and butter in a large skillet.",
+            "When it's very hot, saute the veal for 1 minute on each side. Remove veal and set aside.",
+            "Add wine and lemon and bring to a boil.",
+            "Scrape the pan and pour over the veal."
+            ],
+        meal: "dinner",
+        foodType: "veal",
+        oven: 350,
+        image: "xxx"
+    },
+    {
+        id: 53,
+        adobePage: 22,
+        name: "Onion Soup Pork Roast",
+        ingredients: [
+            {
+                name: "pork roast",
+                measurement: "1"
+            },
+            {
+                name: "white wine",
+                measurement: "2 c."
+            },
+            {
+                name: "onion soup",
+                measurement: "1 box"
+            },
+            {
+                name: "garlic",
+                measurement: "slivers"
+            }
+        ],
+        description: [
+            "Combine the envelope of soup mix and 1 cup of white wine.",
+            "Cut slit into roast and insert garlic.",
+            "Marinate for several hours.",
+            "Mix envelope of soup and rest of white wine. Baste while cooking.",
+            "Cover and simmer for 25 minutes per pound or until tender."
+            ],
+        meal: "dinner",
+        foodType: "pork",
+        image: "xxx"
+    },
+    {
+        id: 54,
+        adobePage: 23,
+        name: "Veal Marsala",
+        ingredients: [
+            {
+                name: "veal cutlets",
+                measurement: "4"
+            },
+            {
+                name: "flour",
+                measurement: "1/2 c."
+            },
+            {
+                name: "mushrooms",
+                measurement: "2 c."
+            },
+            {
+                name: "butter",
+                measurement: "2 tbls."
+            },
+            {
+                name: "olive oil",
+                measurement: "1 tsp."
+            },
+            {
+                name: "marsala",
+                measurement: "1/2 c."
+            }
+        ],
+        description: [
+            "Flatten veal and dredge with flour.",
+            "Melt the butter in a skillet.",
+            "Add mushrooms and saute over medium heat for 15 minutes and remove and set aside.",
+            "Add olive oil t pan and heat to very hot.",
+            "Saute the veal over high heat for about 1 minute per side. Remove and set aside each piece.",
+            "Add masala and simmer until slightly reduce for about 2 minutes.",
+            "Add mushrooms and salt and pepper.",
+            "Heat through and serve."
+            ],
+        meal: "dinner",
+        foodType: "veal",
+        image: "xxx"
+    },
+    {
+        id: 55,
+        adobePage: 23,
+        name: "Pork Chops",
+        ingredients: [
+            {
+                name: "pork chops",
+                measurement: "4, 1 1/2 to 2 inch thick chops"
+            },
+            {
+                name: "olive oil",
+                measurement: "1/2 c."
+            },
+            {
+                name: "thyme",
+                measurement: "1 tsp."
+            },
+            {
+                name: "butter",
+                measurement: "2 tbls."
+            }
+        ],
+        description: [
+            "Brush pork chops with olive oil, thyme and salt and pepper.",
+            "Saute in butter to brown.",
+            "Bake for 15-20 minutes."
+            ],
+        meal: "dinner",
+        foodType: "pork",
+        oven: 325,
+        image: "xxx"
+    },
+    {
+        id: 56,
+        adobePage: 24,
+        name: "Marinated Pork Roast",
+        ingredients: [
+            {
+                name: "pork roast",
+                measurement: "1, 3-5 lbs."
+            },
+            {
+                name: "olive oil",
+                measurement: "1/4 c."
+            },
+            {
+                name: "brown sugar",
+                measurement: "2 tbls."
+            },
+            {
+                name: "ground ginger",
+                measurement: "1 tbls."
+            },
+            {
+                name: "dry mustard",
+                measurement: "1 tsp."
+            },
+            {
+                name: "soy sauce",
+                measurement: "1/2 c."
+            },
+            {
+                name: "garlic",
+                measurement: "6 cloves"
+            }
+        ],
+        description: [
+            "Mix all marinade ingredients and place in zip lock bag with pork.",
+            "Marinate for 8 hours, then reserve marinade.",
+            "Roast 25-30 minutes per pound. Baste with reserved marinade."
+            ],
+        meal: "dinner",
+        foodType: "pork",
+        oven: 325,
+        image: "xxx"
+    },
+    {
+        id: 57,
+        adobePage: 24,
+        name: "Beef Tenderloin",
+        ingredients: [
+            {
+                name: "beef tenderloin",
+                measurement: "1, 3 3/4 lbs."
+            },
+            {
+                name: "garlic",
+                measurement: "3 cloves, slivered"
+            },
+            {
+                name: "olive oil",
+                measurement: "1 tbls."
+            }
+        ],
+        description: [
+            "Cut slits in meat, insert garlic and rub with salt and pepper.",
+            "Place on a baking sheet and bake for 15 minutes.",
+            "Reduce the temperature to 350 and bake for an additional 20 minutes.",
+            "For rare bake 5 minutes long and for medium bake 10 minutes longer.",
+            "Let stand for 20 minutes then slice."
+            ],
+        meal: "dinner",
+        foodType: "beef",
+        oven: 425,
+        image: "xxx"
+    },
+    {
+        id: 58,
+        adobePage: 25,
+        name: "Steak with Scallion and Red Wine",
+        ingredients: [
+            {
+                name: "beef",
+                measurement: "2 filets, 1 inch thick"
+            },
+            {
+                name: "scallions",
+                measurement: "1-2"
+            },
+            {
+                name: "butter",
+                measurement: "2 tsp."
+            },
+            {
+                name: "olive oil",
+                measurement: "1 tsp."
+            },
+            {
+                name: "red wine",
+                measurement: "6 tsp."
+            },
+            {
+                name: "garlic",
+                measurement: "1 clove, minced"
+            }
+        ],
+        description: [
+            "Slice scallions and salt and pepper the filets.",
+            "Heat the frying pan and add 1 tsp. of butter and oil until foamy.",
+            "Add steaks and cook until well browned for 5 minutes. Turn and cook 5 minutes more.",
+            "Remove steaks and set aside.",
+            "Add scallions and garlic to pan and cook over medium heat for 1 minute.",
+            "Add wine and cook another 1 minute, deglazing pan until syrupy.",
+            "Pour sauce over steaks."
+            ],
+        meal: "dinner",
+        foodType: "beef",
+        image: "xxx"
+    },
+    {
+        id: 59,
+        adobePage: 25,
+        name: "Grilled Lamp Chops",
+        ingredients: [
+            {
+                name: "lamb chops",
+                measurement: "8, 1 inch think chops"
+            },
+            {
+                name: "oilive oil",
+                measurement: "1 tsp."
+            },
+            {
+                name: "steak seasoning",
+                measurement: "2 tsp."
+            }
+        ],
+        description: [
+            "Rub steak with olive oil and seasoning.",
+            "Grill for 12-14 minutes for medium rare and 15-17 minutes for medium well."
+            ],
+        meal: "dinner",
+        foodType: "beef",
+        grill: 1,
+        image: "xxx"
+    },
+    {
+        id: 60,
+        adobePage: 26,
+        name: "Sausage Bread",
+        ingredients: [
+            {
+                name: "mozarella",
+                measurement: "1 lb."
+            },
+            {
+                name: "sausage",
+                measurement: "2 lb."
+            },
+            {
+                name: "parmesan",
+                measurement: "1 c., grated"
+            },
+            {
+                name: "bread",
+                measurement: "1 loaf, frozen dough"
+            },
+            {
+                name: "eggs",
+                measurement: "2"
+            }
+        ],
+        description: [
+            "Cook and drain sausage.",
+            "Mix in cheese and eggs.",
+            "Roll out the dough (jelly roll) and fill with ingredients.",
+            "Roll up dough and pinch together.",
+            "Turn over and slit the top.",
+            "Bake for 30 minutes."
+            ],
+        meal: "appetizer",
+        foodType: "pork",
+        oven: 375,
+        image: "xxx"
+    },
+    {
+        id: 61,
+        adobePage: 26,
+        name: "Sloppy Joe's",
+        ingredients: [
+            {
+                name: "beef",
+                measurement: "1 lb., ground chuck"
+            },
+            {
+                name: "onion",
+                measurement: "1 c., chopped"
+            },
+            {
+                name: "celery",
+                measurement: "1 rib, chopped"
+            },
+            {
+                name: "green pepper",
+                measurement: "1/2 pepper, chopped"
+            },
+            {
+                name: "red wine vinegar",
+                measurement: "2 tbls."
+            },
+            {
+                name: "worstershire",
+                measurement: "1 tbls."
+            },
+            {
+                name: "brown sugar",
+                measurement: "1 tbls."
+            },
+            {
+                name: "stewed tomatoes",
+                measurement: "1 can, 14 1/2 oz."
+            },
+            {
+                name: "olive oil",
+                measurement: "2 tbls."
+            },
+            {
+                name: "oregano",
+                measurement: "1/2 tsp."
+            },
+            {
+                name: "ketchup",
+                measurement: "1/2 c."
+            },
+            {
+                name: "tomato sauce",
+                measurement: "1/2 c."
+            },
+            {
+                name: "water",
+                measurement: "1/4 c."
+            },
+            {
+                name: "salt",
+                measurement: "1 tsp."
+            },
+            {
+                name: "black pepper",
+                measurement: "1 tsp."
+            },
+            {
+                name: "garlic",
+                measurement: "1 clove, minced"
+            },
+            {
+                name: "tobasco",
+                measurement: "to taste"
+            }
+        ],
+        description: [
+            "SAute onion, celery, peppers and garlic in olive oil.",
+            "Add the beef and brown.",
+            "Add remaining ingredients and simmer.",
+            "Serve on hamburger buns."
+            ],
+        meal: "dinner",
+        foodType: "beef",
+        image: "xxx"
+    }

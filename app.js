@@ -8,7 +8,18 @@ var express     = require("express"),
     seedDB      = require("./seeds");
     
 
-mongoose.connect("mongodb://localhost/recipeApp_v3"); //create yelpcamp db inside mongodb
+// mongoose.connect("mongodb://localhost/recipeApp_v3"); //create yelpcamp db inside mongodb
+
+mongoose.connect('mongodb://admin:admin1@ds113179.mlab.com:13179/dianesrecipes', 
+    function(err){
+        if(err) {
+            console.log('Some problem with the connection ' +err);
+        } else {
+            console.log('The Mongoose connection is ready');
+        }
+    }
+  );
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
