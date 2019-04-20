@@ -10,7 +10,8 @@ var recipeSchema = new mongoose.Schema ({
             name: String,
             measurement: String
         }
-    ]
+    ],
+    meal: String
     // comments: [ //embedding a reference to the comments
     //     {
     //         type: mongoose.Schema.Types.ObjectId, //

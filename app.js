@@ -32,15 +32,26 @@ app.get("/", function(req, res) {
 
 //INDEX ROUTE - show all recipes
 app.get("/recipes", function(req, res) {
+    if(req.query.search) {
+      const regex = new RegExp(escapeRegex(req.query.search), 'gi');
+      //Get all searched recipes from DB
+      Recipe.find({name: regex}, function(err, allRecipes){
+          if (err) {
+              console.log(err);
+          } else {
+               res.render("recipes/index", {recipes:allRecipes}); //data + name passing in
+          }   
+      });
+    } else {
     // Get all recipes from DB
-    Recipe.find({}, function(err, allRecipes){
-        if (err) {
-            console.log(err);
-        } else {
-             res.render("recipes/index", {recipes:allRecipes}); //data + name passing in
-        }   
+      Recipe.find({}, function(err, allRecipes){
+          if (err) {
+              console.log(err);
+          } else {
+               res.render("recipes/index", {recipes:allRecipes}); //data + name passing in
+          }   
         });
-    
+    }
 });
 
 //CREATE - add new recipes to database
@@ -49,7 +60,8 @@ app.post("/recipes", function (req, res){
     var name= req.body.name;
     var image = req.body.image;
     var desc = req.body.description;
-    var newRecipe = {name: name, image: image, description: desc};
+    var meal = req.body.meal;
+    var newRecipe = {name: name, image: image, description: desc, meal: meal};
    //create a new recipe and save to db
    Recipe.create(newRecipe, function(err, newlyCreated){
       if (err) {
@@ -78,6 +90,10 @@ app.get("/recipes/:id", function(req, res){
        }
     });
 });
+
+function escapeRegex(text) {
+  return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
+};
 
 // ============================
 // INGREDIENTS ROUTES

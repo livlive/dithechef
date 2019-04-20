@@ -3,26 +3,30 @@
 
     <div class="container">
 
-        <header class="jumbotron">
-            <div class="container">
-                <h1>Recipe Directory</h1>
-                <p>Diane Moorhouse's curated collection of recipes.</p>
-                <p>
-                   <a class="btn btn-primary btn-large" href="/recipes/new">Add New Recipe</a> 
-                </p>
+            <div class="page-header">
+                <h1>
+                    <form action="/recipes" method="GET" class="form-inline">
+                        <div class="form-group">
+                            <input type="text" name="search" placeholder="beef, fish, tomato, dinner, etc." class="form-control">
+                            <input type="submit" value="Search" class="btn btn-default">
+                        </div>
+                    </form>
+                </h1>    
             </div>
-        </header>
         
       
         <div class="row text-center" style="display:flex; flex-wrap: wrap;">
             <% recipes.forEach(function(recipe){ %>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4">
                     <div class="thumbnail">
                         <div class="caption">                
                             <h4>   <%= recipe.name %>  </h4>
                         </div>
+                        <div class="caption">                
+                            <h6>   <%= recipe.meal %>  </h6>
+                        </div>
                         <p>
-                            <a href="/recipes/<%= recipe._id%>" class="btn btn-primary">Instructions</a>
+                            <a href="/recipes/<%= recipe._id%>" class="btn btn-outline-primary">show recipe</a>
                         </p>
                     </div>
                 </div>
